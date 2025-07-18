@@ -16,8 +16,11 @@ os.environ['PYTHONHASHSEED'] = str(seed)
 
 # ====== Generate synthetic dataset ======
 
-df = pd.read_csv("music_rec_dataset.csv")
-
+# df = pd.read_csv("music_rec_dataset.csv")
+num_users = 100
+num_items = 500
+num_interactions = 1000
+latent_dim = 3
 
 
 # Generate latent factors
